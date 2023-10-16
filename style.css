@@ -1,0 +1,317 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+     font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+/* header  */
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+     padding-top: 49px;
+     margin-bottom: 19px;
+}
+
+/* navigation  */
+.navigation a{
+    color: #957554;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    transition: all .2s;
+}
+
+.navigation a:hover{
+    color: #DFAA5B;
+    font-weight: 900;
+    transition: .2s;
+}
+
+.navigation a:focus{
+    color: #DFAA5B;
+    font-weight: 900;
+}
+
+.navigation {
+    width: 653px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+/* welcome section  */
+
+.welcome{
+    height: 790px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./background.png);
+    background-repeat: no-repeat;
+    margin-bottom: 80px;
+}
+
+
+.welcome h1{
+    margin-bottom: 48px;
+    color: #FFF;
+    font-family: Ubuntu;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+.welcome h5{
+    margin-bottom: 79px;
+    color: #FFFFFF;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
+.welcome h2{
+    color: #FFF;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background-color: #DFAA5B;;
+    padding:  25px 133px;
+    border-radius: 10px;
+}
+
+.welcome h2:hover{
+    color: #DFAA5B;
+    background-color: #fff;
+}
+
+
+/* rooms section  */
+
+.rooms{
+    margin-bottom: 57px;
+}
+
+.rooms-title h1{
+    width: 100%;
+    color: #957554;
+    font-family: Ubuntu;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 47px;
+}
+
+
+
+
+.rooms-cards{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+
+
+.card{
+    width: 630px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.card:hover h1{
+    transform: translateY(-20px);
+}
+
+.card h1{
+    margin-top: 302px;
+    margin-bottom: 43px;
+    color: #FFF;
+    font-family: Ubuntu;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.card h3{
+    color: #FFF;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 24px 54px;
+    background-color: #DFAA5B;
+    border-radius: 10px;
+}
+
+
+.card1{
+    background-image: url(./photo1.png);
+    background-repeat: no-repeat;
+}
+
+.card2{
+    background-image: url(./photo2.png);
+    background-repeat: no-repeat;
+}
+
+.card3{
+    background-image: url(./photo3.png);
+    background-repeat: no-repeat;
+}
+
+.card4{
+    background-image: url(./photo4.png);
+    background-repeat: no-repeat;
+}
+
+
+
+/* book section  */
+
+.book-now{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.book-now h1{
+    color: #957554;
+    font-family: Ubuntu;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 60px;
+}
+
+.book-now h3{
+    color: #FFF;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 146px;
+    padding: 24px 147px;
+    background-color: #DFAA5B;;
+    border-radius: 10px;
+    width: 420px;
+    align-self: center;
+}
+
+
+
+
+/* footer  */
+
+footer {
+    background: #111111;
+    padding: 51px 0 159px;
+
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-navigation{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.footer-nav-links{
+    font-weight: 400;
+    text-decoration: none;
+}
+
+
+.footer-text a {
+    display: block;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+
+.footer-nav-links:hover,
+.footer-text a:hover{
+    color: #DFAA5B;
+}
+
+
+.footer-nav-links,
+.footer-text a,
+.footer-text p {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF ;
+}
+
+.footer-content img{
+    width: 154px;
+    height: 126px;
+    object-fit: cover;
+}
+
+.news-card-content a{
+    color: #FFF;
+    font-family: Ubuntu;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background-color: #DFAA5B;;
+    padding:  25px 133px;
+    border-radius: 10px;
+    
+
+}
+
+.news-card-content a:hover{
+    color: #DFAA5B;
+    background-color: #fff;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.news-card-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
